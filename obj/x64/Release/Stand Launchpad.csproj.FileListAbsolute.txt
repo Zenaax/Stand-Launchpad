@@ -16,3 +16,12 @@ D:\Aout Pc Backup 2024\Documents\Stand-Launchpad-1.9.1\obj\x64\Release\Stand_Lau
 D:\Aout Pc Backup 2024\Documents\Stand-Launchpad-1.9.1\obj\x64\Release\Stand Launchpad.csproj.GenerateResource.cache
 D:\Aout Pc Backup 2024\Documents\Stand-Launchpad-1.9.1\obj\x64\Release\Stand Launchpad.csproj.CoreCompileInputs.cache
 D:\Aout Pc Backup 2024\Documents\Stand-Launchpad-1.9.1\obj\x64\Release\Stand Launchpad.exe
+C:\Users\Zenax\Documents\Release-1.9.2\bin\x64\Release\Stand Launchpad.exe.config
+C:\Users\Zenax\Documents\Release-1.9.2\bin\x64\Release\Stand Launchpad.exe
+C:\Users\Zenax\Documents\Release-1.9.2\obj\x64\Release\Stand Launchpad.csproj.AssemblyReference.cache
+C:\Users\Zenax\Documents\Release-1.9.2\obj\x64\Release\Stand_Launchpad.Changelog.resources
+C:\Users\Zenax\Documents\Release-1.9.2\obj\x64\Release\Stand_Launchpad.Launchpad.resources
+C:\Users\Zenax\Documents\Release-1.9.2\obj\x64\Release\Stand_Launchpad.Properties.Resources.resources
+C:\Users\Zenax\Documents\Release-1.9.2\obj\x64\Release\Stand Launchpad.csproj.GenerateResource.cache
+C:\Users\Zenax\Documents\Release-1.9.2\obj\x64\Release\Stand Launchpad.csproj.CoreCompileInputs.cache
+C:\Users\Zenax\Documents\Release-1.9.2\obj\x64\Release\Stand Launchpad.exe

@@ -64,8 +64,8 @@ namespace Stand_Launchpad
         private static Random random = new Random();
 
         // Don't forget to update the file version
-        private const string launchpad_update_version = "1.9.1";
-        private const string launchpad_display_version = "1.9.1";
+        private const string launchpad_update_version = "1.9.2";
+        private const string launchpad_display_version = "1.9.2";
 
         private string stand_dir;
         private FileStream lockfile;
@@ -342,8 +342,9 @@ namespace Stand_Launchpad
         private bool updateGtaPid()
         {
             var gtaProcess = Process.GetProcessesByName("GTA5").FirstOrDefault();
+            
 
-            if (gtaProcess != null)
+            if (gtaProcess != null )
             {
                 if (gta_pid == gtaProcess.Id)
                 {
@@ -602,7 +603,7 @@ namespace Stand_Launchpad
                                 Console.WriteLine("Couldn't inject " + dll + " because the file doesn't exist.");
                                 continue;
                             }
-                            string dll_copy = temp_dir + "\\" + Get8CharacterRandomString() + ".dll";
+                            string dll_copy = temp_dir + "\\" + GetCharacterRandomString() + ".dll";
                             File.Copy(dll, dll_copy);
                             byte[] dllBytes = Encoding.Unicode.GetBytes(dll_copy);
                             IntPtr baseAddress = VirtualAllocEx(pHandle, (IntPtr)null, (IntPtr)dllBytes.Length, 12288u, 64u);
@@ -654,7 +655,7 @@ namespace Stand_Launchpad
             }
         }
 
-        public string Get8CharacterRandomString()
+        public string GetCharacterRandomString()
         {
 
             string path = Path.GetRandomFileName();
@@ -729,7 +730,10 @@ namespace Stand_Launchpad
             {
                 MinimizeBox = false;
                 Width = width_simple;
-                InjectBtn.Text = "Inject Stand " + versions[1];
+                if (versions != null)
+                {
+                    InjectBtn.Text = "Inject Stand " + versions[1];
+                }
                 AutoInjectDelaySeconds.Visible = false;
                 AddBtn.TabStop = false;
                 RemoveBtn.TabStop = false;
